@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kisah Cinta Vivia & Max</title>
-    <!-- Muat Tailwind CSS -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- Konfigurasi Tailwind untuk warna kustom dan font Inter -->
-    <script>
+    <!-- Muat Tailwind CSS --><script src="https://cdn.tailwindcss.com"></script>
+    <!-- Konfigurasi Tailwind untuk warna kustom dan font Inter --><script>
         tailwind.config = {
             theme: {
                 extend: {
@@ -40,7 +38,7 @@
     </script>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@100..900&display=swap" rel="stylesheet">
     <style>
-        /* Dekorasi Hati Mengambang di Latar Belakang */
+        /* Dekorasi Hati Mengambang di Latar Belakang (Fitur Emot Love Bergerak) */
         .heart-decoration {
             position: fixed;
             top: 0;
@@ -49,7 +47,7 @@
             height: 100%;
             pointer-events: none;
             overflow: hidden;
-            z-index: -10;
+            z-index: -10; /* Pastikan di belakang konten utama */
         }
 
         .heart {
@@ -113,31 +111,26 @@
 </head>
 <body class="bg-elegant-bg min-h-screen text-gray-800 font-sans relative overflow-x-hidden">
 
-    <!-- Kontainer Utama -->
-    <div class="relative min-h-screen flex justify-center py-8 md:py-16">
+    <!-- Kontainer Utama --><div class="relative min-h-screen flex justify-center py-8 md:py-16">
 
-        <!-- Dekorasi Hati Kiri (Hanya terlihat di layar besar) -->
-        <div class="border-heart-left">
+        <!-- Dekorasi Hati Kiri (Hanya terlihat di layar besar) --><div class="border-heart-left">
             <span class="heart-item transform rotate-12">💖</span>
             <span class="heart-item transform -rotate-6" style="animation-delay: 1s;">❤️</span>
             <span class="heart-item transform rotate-12">💖</span>
             <span class="heart-item transform -rotate-6" style="animation-delay: 2s;">❤️</span>
         </div>
 
-        <!-- Dekorasi Hati Kanan (Hanya terlihat di layar besar) -->
-        <div class="border-heart-right">
+        <!-- Dekorasi Hati Kanan (Hanya terlihat di layar besar) --><div class="border-heart-right">
             <span class="heart-item transform -rotate-12" style="animation-delay: 1.5s;">💖</span>
             <span class="heart-item transform rotate-6">❤️</span>
             <span class="heart-item transform -rotate-12" style="animation-delay: 0.5s;">💖</span>
             <span class="heart-item transform rotate-6">❤️</span>
         </div>
 
-        <!-- Konten Utama Card -->
-        <main class="w-full max-w-4xl px-4">
+        <!-- Konten Utama Card --><main class="w-full max-w-4xl px-4">
             <div class="bg-white/90 backdrop-blur-sm p-8 md:p-12 rounded-3xl shadow-2xl border-4 border-romantic-pink/50 relative z-20">
 
-                <!-- Header Romantis -->
-                <header class="text-center mb-10">
+                <!-- Header Romantis --><header class="text-center mb-10">
                     <h1 class="text-4xl md:text-6xl font-cursive text-deep-red mb-2 animate-pulseHeart">
                         Vivia & Max
                     </h1>
@@ -146,37 +139,31 @@
                     </h2>
                 </header>
 
-                <!-- Area Cerita Baru -->
-                <section class="space-y-6 text-lg">
+                <!-- Area Cerita Baru --><section class="space-y-6 text-lg">
                     
-                    <!-- Paragraf 1: Awal Perjalanan -->
-                    <p class="text-gray-700 leading-relaxed indent-8">
+                    <!-- Paragraf 1: Awal Perjalanan --><p class="text-gray-700 leading-relaxed indent-8">
                         Hari itu dimulai dengan sempurna. Vivia dan Max berjalan bergandengan tangan melalui taman kota yang rimbun. Mereka menikmati tawa dan obrolan ringan, mengenang berbagai momen manis yang telah mereka lalui sebagai sahabat dekat. Udara musim semi dan aroma bunga yang segar memenuhi hari mereka, membuat Vivia merasa hari ini spesial, meskipun ia tidak tahu alasannya.
                     </p>
 
-                    <!-- Paragraf 2: Tiba-tiba Lapar (Momen Bakso) -->
-                    <p class="text-gray-700 leading-relaxed indent-8">
+                    <!-- Paragraf 2: Tiba-tiba Lapar (Momen Bakso) --><p class="text-gray-700 leading-relaxed indent-8">
                         Di tengah keasyikan mengobrol, tiba-tiba Vivia menghentikan langkahnya, matanya berbinar karena ide yang spontan setelah mencium aroma sedap dari kejauhan.
                     </p>
 
-                    <!-- Dialog 1 (Vivia - Bakso) -->
-                    <div class="flex justify-end">
+                    <!-- Dialog 1 (Vivia - Bakso) --><div class="flex justify-end">
                         <div class="bg-romantic-pink/70 p-4 rounded-tl-xl rounded-tr-3xl rounded-bl-3xl max-w-xs md:max-w-md shadow-lg transform transition hover:scale-[1.02] duration-300">
                             <p class="font-semibold text-deep-red">Vivia</p>
                             <p class="text-gray-800 italic">"Max, tunggu sebentar! Tahan langkahmu." Tiba-tiba dia menarik napas dalam. "Aku... aku mencium bau yang luar biasa! Aroma kuah kaldu yang pedas dan gurih yang khas itu. Max, aku rasa aku harus makan bakso sekarang juga. Panggilan perut ini tidak bisa ditunda!"</p>
                         </div>
                     </div>
 
-                    <!-- Dialog 2 (Max - Bakso) -->
-                    <div class="flex justify-start">
+                    <!-- Dialog 2 (Max - Bakso) --><div class="flex justify-start">
                         <div class="bg-pink-300/70 p-4 rounded-tl-3xl rounded-tr-xl rounded-br-3xl max-w-xs md:max-w-md shadow-lg transform transition hover:scale-[1.02] duration-300">
                             <p class="font-semibold text-gray-800">Max</p>
                             <p class="text-deep-red italic">"Haha, Vivia, kamu ini. Selalu saja bakso! Aku tahu persis gerobak bakso langgananmu ada di ujung jalan. Kamu tunggu di bangku dekat air mancur itu, ya? Biar aku yang membelikan dan membawanya kemari. Bakso urat dengan banyak sambal, kan?"</p>
                         </div>
                     </div>
                     
-                    <!-- Dialog 3 (Vivia - Persiapan Bakso) -->
-                    <div class="flex justify-end">
+                    <!-- Dialog 3 (Vivia - Persiapan Bakso) --><div class="flex justify-end">
                         <div class="bg-romantic-pink/70 p-4 rounded-tl-xl rounded-tr-3xl rounded-bl-3xl max-w-xs md:max-w-md shadow-lg transform transition hover:scale-[1.02] duration-300">
                             <p class="font-semibold text-deep-red">Vivia</p>
                             <p class="text-gray-800 italic">"Ah, kamu memang yang terbaik! Tapi jangan lupa beli kerupuknya juga, Max. Bakso tanpa kerupuk itu seperti taman tanpa bunga!"</p>
@@ -184,13 +171,11 @@
                     </div>
 
 
-                    <!-- Paragraf 3: Bakso Datang -->
-                    <p class="text-gray-700 leading-relaxed indent-8">
+                    <!-- Paragraf 3: Bakso Datang --><p class="text-gray-700 leading-relaxed indent-8">
                         Max tersenyum dan segera pergi. Beberapa saat kemudian, dia kembali membawa dua porsi bakso panas yang mengepul, lengkap dengan kerupuk renyah. Vivia sudah duduk manis di bangku taman. Dia langsung mengambil satu porsi dengan mata berbinar.
                     </p>
 
-                    <!-- Dialog 4 (Vivia - Komentar Bakso) -->
-                    <div class="flex justify-end">
+                    <!-- Dialog 4 (Vivia - Komentar Bakso) --><div class="flex justify-end">
                         <div class="bg-romantic-pink/70 p-4 rounded-tl-xl rounded-tr-3xl rounded-bl-3xl max-w-xs md:max-w-md shadow-lg transform transition hover:scale-[1.02] duration-300">
                             <p class="font-semibold text-deep-red">Vivia</p>
                             <p class="text-gray-800 italic flex items-center">
@@ -200,47 +185,50 @@
                         </div>
                     </div>
                     
-                    <!-- Dialog 5 (Max - Sambil Makan Bakso) -->
-                    <div class="flex justify-start">
+                    <!-- Dialog 5 (Max - Sambil Makan Bakso) --><div class="flex justify-start">
                         <div class="bg-pink-300/70 p-4 rounded-tl-3xl rounded-tr-xl rounded-br-3xl max-w-xs md:max-w-md shadow-lg transform transition hover:scale-[1.02] duration-300">
                             <p class="font-semibold text-gray-800">Max</p>
                             <p class="text-deep-red italic">"Hanya karena aku yang membelikannya, ya? Padahal kemarin kamu bilang bakso di pasar lebih enak." Dia menyendok kuah. "Tapi, aku harus akui, cuaca sejuk di bawah pohon ini membuat bakso terasa sepuluh kali lipat lebih nikmat. Apalagi sambil melihat wajah bahagiamu."</p>
                         </div>
                     </div>
 
-                    <!-- Paragraf 4: Momen Romantis Makan Bakso -->
-                    <p class="text-gray-700 leading-relaxed indent-8">
+                    <!-- Gambar setelah makan bakso --><div class="my-8 text-center">
+                        <img src="https://files.catbox.moe/65j3pb.jpeg" alt="Vivia dan Max makan bakso" class="mx-auto rounded-xl shadow-lg border-2 border-romantic-pink max-w-full h-auto md:max-w-md">
+                        <p class="text-sm text-gray-500 mt-2 italic">Momen manis Vivia dan Max menikmati bakso di taman.</p>
+                    </div>
+
+                    <!-- Paragraf 4: Momen Romantis Makan Bakso --><p class="text-gray-700 leading-relaxed indent-8">
                         Mereka berdua menikmati bakso sambil berbicara dan tertawa, saling menyikut dengan manja. Momen sederhana ini, yang dipenuhi tawa dan kehangatan, semakin mempertebal perasaan yang sudah lama mereka rasakan.
                     </p>
                     
-                    <!-- Paragraf 5: Perjalanan Lanjut ke Spot Tenang -->
-                    <p class="text-gray-700 leading-relaxed indent-8">
+                    <!-- Paragraf 5: Perjalanan Lanjut ke Spot Tenang --><p class="text-gray-700 leading-relaxed indent-8">
                         Setelah selesai makan, mereka melanjutkan perjalanan. Max membawa Vivia ke sudut taman yang lebih tenang, di bawah pohon rindang yang jauh dari keramaian. Di sana, Max menghentikan langkahnya, hatinya berdebar tak karuan. Dia tahu, ini adalah momen yang dia tunggu-tunggu, dan dia harus mengatakan yang sejujurnya.
                     </p>
 
-                    <!-- Dialog 6 (Max - Memulai Pembicaraan Serius) -->
-                    <div class="flex justify-start">
+                    <!-- Gambar setelah mengobrol/berjalan --><div class="my-8 text-center">
+                        <img src="https://files.catbox.moe/hxylbg.jpeg" alt="Vivia dan Max mengobrol" class="mx-auto rounded-xl shadow-lg border-2 border-romantic-pink max-w-full h-auto md:max-w-md">
+                        <p class="text-sm text-gray-500 mt-2 italic">Max dan Vivia saat obrolan serius dimulai.</p>
+                    </div>
+
+                    <!-- Dialog 6 (Max - Memulai Pembicaraan Serius) --><div class="flex justify-start">
                         <div class="bg-pink-300/70 p-4 rounded-tl-3xl rounded-tr-xl rounded-br-3xl max-w-xs md:max-w-md shadow-lg transform transition hover:scale-[1.02] duration-300">
                             <p class="font-semibold text-gray-800">Max</p>
                             <p class="text-deep-red italic">"Vivia... ada sesuatu yang jauh lebih penting daripada sekadar menikmati taman atau bakso hari ini. Aku... aku harus mengatakannya. Aku harap ini tidak merusak suasana, tapi aku harus jujur padamu sekarang."</p>
                         </div>
                     </div>
                     
-                    <!-- Dialog 7 (Vivia - Reaksi Serius) -->
-                    <div class="flex justify-end">
+                    <!-- Dialog 7 (Vivia - Reaksi Serius) --><div class="flex justify-end">
                         <div class="bg-romantic-pink/70 p-4 rounded-tl-xl rounded-tr-3xl rounded-bl-3xl max-w-xs md:max-w-md shadow-lg transform transition hover:scale-[1.02] duration-300">
                             <p class="font-semibold text-deep-red">Vivia</p>
                             <p class="text-gray-800 italic">"Ya, Max? Kamu membuatku penasaran. Wajahmu terlihat serius sekali. Ada apa? Kamu bisa cerita apa saja padaku, kamu tahu itu." Dia meraih tangan Max dan menggenggamnya erat, berusaha meyakinkan. </p>
                         </div>
                     </div>
 
-                    <!-- Paragraf 6: Max Mengungkapkan Perasaannya Secara Mendalam -->
-                    <p class="text-gray-700 leading-relaxed indent-8">
+                    <!-- Paragraf 6: Max Mengungkapkan Perasaannya Secara Mendalam --><p class="text-gray-700 leading-relaxed indent-8">
                         Max membalas genggaman tangannya. Matanya menatap Vivia dalam-dalam, penuh ketulusan. "Ini tentang perasaanku. Selama bertahun-tahun kita berteman, kamu tahu segalanya tentang aku. Kamu menertawakan leluconku yang garing, kamu ada saat aku terpuruk... Tapi akhir-akhir ini, melihatmu, ada rasa yang tumbuh melampaui persahabatan. Aku tidak bisa membayangkan hidupku tanpamu di sisiku, bukan hanya sebagai teman, tapi sebagai partner, sebagai segalanya."
                     </p>
                     
-                    <!-- Paragraf 7: Pengakuan Cinta Max (The Central Block) -->
-                    <div class="text-center p-4 bg-red-50 border-l-4 border-heart-red rounded-lg shadow-inner">
+                    <!-- Paragraf 7: Pengakuan Cinta Max (The Central Block) --><div class="text-center p-4 bg-red-50 border-l-4 border-heart-red rounded-lg shadow-inner">
                         <p class="text-xl font-medium text-heart-red">
                             <svg class="heart-icon text-heart-red animate-pulseHeart" viewBox="0 0 24 24">
                                 <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
@@ -252,28 +240,29 @@
                         </p>
                     </div>
 
-                    <!-- Paragraf 8: Reaksi Vivia -->
-                    <p class="text-gray-700 leading-relaxed indent-8">
+                    <!-- Paragraf 8: Reaksi Vivia --><p class="text-gray-700 leading-relaxed indent-8">
                         Vivia terdiam sesaat, matanya berkaca-kaca. Perasaan yang sama yang selama ini ia pendam, kini terucap oleh Max dengan begitu tulus. Wajahnya berseri-seri, dipenuhi rasa haru dan bahagia yang meluap.
                     </p>
 
-                    <!-- Dialog 8 (Vivia - Balasan Cinta) -->
-                    <div class="flex justify-end">
+                    <!-- Dialog 8 (Vivia - Balasan Cinta) --><div class="flex justify-end">
                         <div class="bg-romantic-pink/70 p-4 rounded-tl-xl rounded-tr-3xl rounded-bl-3xl max-w-xs md:max-w-md shadow-lg transform transition hover:scale-[1.02] duration-300">
                             <p class="font-semibold text-deep-red">Vivia</p>
                             <p class="text-gray-800 italic">"Oh, Max! Ya, Max! Tentu saja aku mau! Aku juga sudah lama merasakan hal yang sama, aku hanya takut merusak persahabatan kita." Air mata bahagia menetes. "Aku sangat cinta kamu!"</p>
                         </div>
                     </div>
                     
-                    <!-- Paragraf Akhir: Pelukan dan Kebahagiaan -->
-                    <p class="text-gray-700 leading-relaxed indent-8 text-center mt-10 text-xl font-semibold text-pink-700">
+                    <!-- Paragraf Akhir: Pelukan dan Kebahagiaan --><p class="text-gray-700 leading-relaxed indent-8 text-center mt-10 text-xl font-semibold text-pink-700">
                         Seketika itu juga, Max menarik Vivia ke dalam pelukan yang erat dan hangat. Di bawah naungan pohon rindang, dengan sisa-sisa aroma bakso dan janji yang baru terucap, mereka merayakan awal baru hubungan mereka. Senyum bahagia terukir di wajah keduanya, mengabadikan momen di taman kota sebagai awal kisah cinta yang akan terus berlanjut.
                     </p>
 
+                    <!-- Gambar setelah berpelukan --><div class="my-8 text-center">
+                        <img src="https://files.catbox.moe/kv9tf4.jpeg" alt="Vivia dan Max berpelukan" class="mx-auto rounded-xl shadow-lg border-2 border-romantic-pink max-w-full h-auto md:max-w-md">
+                        <p class="text-sm text-gray-500 mt-2 italic">Awal kisah cinta Vivia dan Max yang baru.</p>
+                    </div>
+
                 </section>
 
-                <!-- Footer/Penutup -->
-                <footer class="text-center mt-12 pt-4 border-t border-romantic-pink">
+                <!-- Footer/Penutup --><footer class="text-center mt-12 pt-4 border-t border-romantic-pink">
                     <p class="text-xl font-cursive text-pink-600">
                         Forever & Always
                     </p>
@@ -285,13 +274,12 @@
             </div>
         </main>
         
-        <!-- Script untuk membuat hati mengambang secara dinamis -->
-        <script>
+        <!-- Script untuk membuat hati mengambang secara dinamis --><script>
             // Fungsi untuk membuat elemen hati baru
             function createHeart() {
                 const heart = document.createElement('div');
                 heart.classList.add('heart');
-                heart.innerHTML = '💖'; // Atau '❤️'
+                heart.innerHTML = '💖'; // Menggunakan emot hati
 
                 // Atur properti acak
                 const size = Math.random() * 20 + 10; // 10px - 30px
@@ -308,7 +296,7 @@
                 heart.style.left = `${left}vw`;
                 heart.style.animationDelay = `-${delay}s`;
 
-                // Atur posisi awal di bawah viewport
+                // Atur posisi awal di bawah viewport (100vh)
                 heart.style.top = '100vh';
 
                 document.querySelector('.heart-decoration').appendChild(heart);
@@ -319,7 +307,7 @@
                 });
             }
 
-            // Inisialisasi dekorasi hati
+            // Inisialisasi dekorasi hati saat window selesai dimuat
             window.onload = function() {
                 const heartDecoration = document.createElement('div');
                 heartDecoration.classList.add('heart-decoration');
@@ -330,7 +318,7 @@
                     createHeart();
                 }
                 
-                // Terus buat hati baru setiap beberapa detik
+                // Terus buat hati baru setiap 1 detik
                 setInterval(createHeart, 1000);
             };
         </script>
